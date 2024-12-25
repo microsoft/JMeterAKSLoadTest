@@ -40,7 +40,7 @@ Steps to execute Prerequisite script:
 
 ## Test Execution Pipeline
 The test execution pipeline will help users to run tests with maximum automation. Once prerequisites are setup, users can straight away run their tests.
-For users who do not have a AKS cluster, the pipeline parameter `IsClusterRequired` will give an option to create this on the fly (it will get deleted after the test).
+For users who do not have an AKS cluster, the pipeline parameter `IsClusterRequired` will give an option to create this on the fly (it will get deleted after the test).
 This pipeline is recommended for tests less than 1 hour to avoid timeout. For running tests greater than 1 hr an advanced setup maybe required, refer to [Load Test Infrastructure Pipeline](#load-test-infrastructure-pipeline) for more details
 
 ### Steps to onboard and execute the pipeline:
@@ -145,7 +145,7 @@ cd .\Scripts\
 
 ## More about AKS
 
-- Create AKS cluster with the help of how to create a AKS cluster(https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal)
+- Create AKS cluster with the help of how to create an AKS cluster(https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal)
 - Alternately, it can be created using the [Load Test Infrastrucure Pipeline](#load-test-infrastrucure-pipeline).
 - Provide access to a Service Principal Name which would be used to run the JMX file in the cluster.
 
